@@ -1,140 +1,107 @@
-
-
 body {
-    align-items: center;
-    background-color: rgb(237, 233, 254);
-    display: flex;
+  align-items: center;
+  background-color: rgb(237, 233, 254);
+  display: flex;
 
-    height: 100vh;
-    justify-content: center;
+  height: 100vh;
+  justify-content: center;
 }
 
-
-
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
 .container {
+  border-style: solid;
 
-border-style: solid;
+  border-width: 50px;
 
-border-width: 50px;
+  border-color: #0d1e2c;
+  width: 500px;
 
+  border-radius: 5px;
 
-border-color: darkslateblue;
-width: 500px;
-
-
-border-radius: 20px;
-
-height:  400px;
-
-
+  /* height: 400px; */
 }
 
+/* .container .main {
+  margin-left: 100px;
+} */
 
-
-
-.container .main{
-
-
-margin-left: 100px;
-
-
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px 0;
 }
-
-
 .main .dice1 {
-
-
-
-
-    display: flex;
-    
-
+  display: flex;
 }
 
+.main .dice1 button {
+  display: inline-block;
 
-       .main .dice1 button{
+  box-shadow: 0px 0px 6px 1px #aaa;
 
-display: inline-block;
+  background-color: white;
 
-background-color: white;
+  color: black;
 
-color: black;
+  width: 50px;
 
-width: 50px;
+  margin: 15px 10px;
 
-margin: 5px;
+  text-align: center;
 
-text-align: center;
+  line-height: 50px;
 
-line-height: 50px;
-
-font-size: 20px;
-
+  font-size: 20px;
 }
 
-
-
-.main .dice2{
-
-display: flex;
-
+.main .dice2 {
+  display: flex;
 }
 
+.main .dice2 button {
+  display: inline-block;
+  box-shadow: 0px 0px 6px 1px #aaa;
+  background-color: white;
 
+  color: black;
 
-.main .dice2 button{
+  width: 50px;
 
-    display: inline-block;
-    
-    background-color: white;
-    
-    color: black;
-    
-    width: 50px;
-    
-    margin: 5px;
-    
-    text-align: center;
-    
-    line-height: 50px;
-    
-    font-size: 20px;
-    
-    }
+  margin: 15px 10px;
 
+  text-align: center;
 
-.submit button{
+  line-height: 50px;
 
-align-items: center;
-
-width: 80px;
-
-margin-top: 15px;
-
-background-color: bisque;
-
-color: black;
-
-border-radius: 2px;
-
-height: 40px;
-
-margin-left: 120px;
-
-
+  font-size: 20px;
 }
 
+.submit button {
+  align-items: center;
 
+  width: 80px;
 
-.submit button:hover{
+  margin-top: 15px;
 
-background-color: deepskyblue;
+  background-color: bisque;
 
+  color: black;
+
+  border-radius: 2px;
+
+  height: 40px;
+
+  cursor: pointer;
 }
 
-.container .main h1{
-
-margin-left: 50px;
-
+.submit button:hover {
+  background-color: deepskyblue;
 }
